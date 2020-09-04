@@ -1,5 +1,5 @@
 {
-  "name": "1-Passport-Example",
+  "name": "Passport-Example",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -20,7 +20,9 @@
     "mysql2": "^1.6.5",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "sequelize": "^5.8.6"
+    "path": "^0.12.7",
+    "sequelize": "^5.8.6",
+    "socketio": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
