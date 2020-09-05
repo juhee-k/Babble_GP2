@@ -1,10 +1,10 @@
-const passport = require("passport");
-const LocalStrategy = require("passport-local").Strategy;
+const chatroom = require("chatroom");
+const LocalStrategy = require("chatroom-local").Strategy;
 
 const db = require("../models");
 
 // Telling passport we want to use a Local Strategy. In other words, we want login with a username/email and password
-passport.use(
+chatroom.use(
   new LocalStrategy(
     // Our user will sign in using an email, rather than a "username"
     {
@@ -39,13 +39,13 @@ passport.use(
 // In order to help keep authentication state across HTTP requests,
 // Sequelize needs to serialize and deserialize the user
 // Just consider this part boilerplate needed to make it all work
-passport.serializeUser((user, cb) => {
+chatroom.serializeUser((user, cb) => {
   cb(null, user);
 });
 
-passport.deserializeUser((obj, cb) => {
+chatroom.deserializeUser((obj, cb) => {
   cb(null, obj);
 });
 
 // Exporting our configured passport
-module.exports = passport;
+module.exports = chatroom;
