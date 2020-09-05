@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD:sequelize_passport/package.json
+  "name": "Passport-Example",
+=======
   "name": "chatroom",
+>>>>>>> juhee:package.json
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -21,8 +25,14 @@
     "mysql2": "^1.6.5",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
+<<<<<<< HEAD
     "sequelize": "^5.8.6",
     "socket.io": "^2.3.0"
+=======
+    "path": "^0.12.7",
+    "sequelize": "^5.8.6",
+    "socketio": "^1.0.0"
+>>>>>>> 312608d24439b2063bf68ae9cc4d9774ef2bcf22
   },
   "devDependencies": {
     "chai": "^4.1.2",
