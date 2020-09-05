@@ -9,17 +9,14 @@ const session = require("express-session");
 // Requiring chatroom as we've configured it
 const chatroom = require("./config/chatroom");
 
-<<<<<<< HEAD
 //create socket instance
 const socketio = require("socket.io");
-=======
 // Requiring http
 const http = require('http');
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
->>>>>>> 312608d24439b2063bf68ae9cc4d9774ef2bcf22
 
 // Setting up port and requiring models for syncing
 const PORT = process.env.PORT || 8080;
