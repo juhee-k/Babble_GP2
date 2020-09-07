@@ -36,15 +36,24 @@
             <div id="content-wrap">
                 <div class="row">
                     <h1 class="animate__animated animate__fadeInLeft">Babble</h1>
-                    <a onclick=myFunction() class="animate__animated animate__fadeInLeft animate__delay-1s" id="babble">the chat app</a>
+                    <a class="animate__animated animate__fadeInLeft animate__delay-1s" id="babble">the chat app</a>
                 </div>
             </div>
         <footer class="footer"id="footer">© Copyright, 2020, All Rights Reserved </footer>
     </div>
 
     <script>
-        function myFunction() {
-          document.getElementById("babble").innerHTML = "^_^";
+        // function myFunction() {
+        //   document.getElementById("babble").innerHTML = "^_^";
+        // }
+        
+        animate__fadeInLeft();
+        function animate__fadeInLeft() {
+          document.getElementById("babble").setAttribute("class", "animate__animated animate__fadeInLeft animate__delay-1s")
+        }
+        setTimeout(animate__fadeOutRight, 2000);
+        function animate__fadeOutRight() {
+          document.getElementById("babble").setAttribute("class", "animate__animated animate__fadeOutRight animate__delay-1s");
         }
 
     </script>
