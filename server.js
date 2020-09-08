@@ -7,21 +7,20 @@ const express = require("express");
 const session = require("express-session");
 
 // Requiring chatroom as we've configured it
-const chatroom = require("./config/chatroom");
+const passport = require("./config/passport");
 
 //create socket instance
-const socketio = require("socket.io");
+const socket = require("socket.io");
 // Requiring http
 const http = require('http');
 const app = express();
 const server = http.createServer(app);
-const io = socketio(server);
+const io = socket(server);
 
 
 // Setting up port and requiring models for syncing
 const PORT = process.env.PORT || 8080;
 const db = require("./models");
-const io = socketio(db);
 const formatMessage = require("./utils/messages");
 const { userJoin, getCurrentUser, userLeave, getRoomUsers } = require("./utils/users");
 
@@ -52,7 +51,7 @@ io.on("connection", socket => {
   });
 
   //Listen for chatMessage
-  socket.on("chatMessage", (msg) => {
+  io.on("chatMessage", (msg) => {
 
     const user = getCurrentUser(socket.id);
 
@@ -64,7 +63,7 @@ io.on("connection", socket => {
 });
 
  //Run when client disconnects
- socket.on("disconnect", () => {
+ io.on("disconnect", () => {
    const user = userLeave(socket.id);
 
    if(user) {
@@ -81,7 +80,6 @@ io.on("connection", socket => {
 });
 
 // Creating express app and configuring middleware needed for authentication
-const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
@@ -89,8 +87,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(
   session({ secret: "keyboard cat", resave: true, saveUninitialized: true })
 );
-app.use(chatroom.initialize());
-app.use(chatroom.session());
+app.use(passport.initialize());
+app.use(passport.session());
 
 // Requiring our routes
 require("./routes/html-routes.js")(app);

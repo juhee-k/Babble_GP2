@@ -1,6 +1,6 @@
 // Requiring our models and chatroom as we've configured it
 const db = require("../models");
-const chatroom = require("../config/chatroom");
+const chatroom = require("../config/passport");
 
 module.exports = function(app) {
   // Using the chatroom.authenticate middleware with our local strategy.
