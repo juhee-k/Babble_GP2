@@ -1,19 +1,14 @@
-//Requiring path
-const path = require('path')
-// Requiring necessary npm package
 const express = require("express");
-const session = require("express-session");
-// Requiring chatroom as we've configured it
-const passport = require("./config/passport");
 const app = express();
+const path = require('path')
 const server = require("http").createServer(app);
-//create socket instance
-const io= require("socket.io")(server);
-// Requiring http
+const io = require("socket.io")(server);
+const PORT = process.env.PORT || 8080;
+const session = require("express-session");
+const passport = require("./config/passport");
 
 
 // Setting up port and requiring models for syncing
-const PORT = process.env.PORT || 8080;
 const db = require("./models");
 
 var numUsers = 0;
@@ -39,15 +34,7 @@ app.get("/" ,((req, res) => {
 })
 )
 // Creating express app and configuring middleware needed for authentication
-
-// db.sequelize.sync({force:false}).then(() => {
-  app.listen(PORT, () => {
-    console.log(
-      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-      PORT,
-      PORT
-    );
-    io.on('connection', (socket) => {
+io.on('connection', (socket) => {
   var addedUser = false;
   console.log("socket connected!")
   // when the client emits 'new message', this listens and executes
@@ -106,6 +93,15 @@ app.get("/" ,((req, res) => {
     }
   });
 });
+// db.sequelize.sync({force:false}).then(() => {
+  server.listen(PORT, () => {
+    console.log(
+      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+      PORT,
+      PORT
+    );
+
+    // I don't think this line below is in the correct place... -Alex //
   });
   //socket io hooks
 
