@@ -1,20 +1,24 @@
 //Requiring path
 const path = require('path')
 // Requiring necessary npm package
-const http = require('http');
 const express = require("express");
 const session = require("express-session");
 // Requiring chatroom as we've configured it
 const passport = require("./config/passport");
 const app = express();
-const server = http.createServer(app);
+const server = require("http").createServer(app);
 //create socket instance
 const io= require("socket.io")(server);
 // Requiring http
 
+
 // Setting up port and requiring models for syncing
 const PORT = process.env.PORT || 8080;
 const db = require("./models");
+
+var numUsers = 0;
+
+
 const botName = "Babble Chat";
 
 app.use(express.urlencoded({ extended: true }));
@@ -30,24 +34,20 @@ app.use(passport.session());
 // Requiring our routes
 require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
-
+app.get("/" ,((req, res) => {
+  res.sendFile(path.join(__dirname, "public/members.html"))
+})
+)
 // Creating express app and configuring middleware needed for authentication
 
-
-// Syncing our database and logging a message to the user upon success
-db.sequelize.sync({force:false}).then(() => {
+// db.sequelize.sync({force:false}).then(() => {
   app.listen(PORT, () => {
     console.log(
       "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
       PORT,
       PORT
     );
-  });
-});
-
-
-//socket io hooks
-io.on('connection', (socket) => {
+    io.on('connection', (socket) => {
   var addedUser = false;
   console.log("socket connected!")
   // when the client emits 'new message', this listens and executes
@@ -106,3 +106,12 @@ io.on('connection', (socket) => {
     }
   });
 });
+  });
+  //socket io hooks
+
+// });
+// Syncing our database and logging a message to the user upon success
+
+
+
+
