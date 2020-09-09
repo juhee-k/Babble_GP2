@@ -57,6 +57,19 @@ h1 {
   position:relative;
 }
 
+h2 {
+  padding-top:15rem;
+  color: #EB9A0B;
+  font-size: 30px;
+  font-weight: 800;
+  display: inline-block;
+  margin: 0 0.5rem;
+  justify-content: center;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  position:relative;
+}
+
 h1 {
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */

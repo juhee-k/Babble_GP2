@@ -24,11 +24,11 @@
         <form class="signup animate__animated animate__fadeInLeft2">
           <div class="form-group">
             <label for="exampleInputEmail1">First Name</label>
-            <input type="text" class="form-control" id="firstname-input" placeholder="First Name">
+            <input type="text" class="form-control" id="fname-input" placeholder="First Name">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Last Name</label>
-            <input type="text" class="form-control" id="lastname-input" placeholder="Last Name">
+            <input type="text" class="form-control" id="lname-input" placeholder="Last Name">
           </div>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -44,6 +44,7 @@
           </div>
           <button type="submit" class="btn btn-default">Sign Up</button>
         </form>
+        <button id="devLogin" class="btn btn-default">Dev Login</button>
         <br />
         <p>Or log in <a href="/login">here</a></p>
       </div>
@@ -52,7 +53,9 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/signup.js"></script>
-
+  <script type="text/javascript">
+  $("#devLogin").click(()=> $.post("/api/login", {email: "chad@chad.com", password: 1234}).then(()=> window.location.reload()))
+  </script>
   <script>
     
     animate__fadeInLeft();
