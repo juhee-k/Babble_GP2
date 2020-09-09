@@ -1,85 +1,22 @@
-
 //Requiring path
 const path = require('path')
-
-// Requiring necessary npm packages
+// Requiring necessary npm package
+const http = require('http');
 const express = require("express");
 const session = require("express-session");
-
 // Requiring chatroom as we've configured it
 const passport = require("./config/passport");
-
-//create socket instance
-const socket = require("socket.io");
-// Requiring http
-const http = require('http');
 const app = express();
 const server = http.createServer(app);
-const io = socket(server);
-
+//create socket instance
+const io= require("socket.io")(server);
+// Requiring http
 
 // Setting up port and requiring models for syncing
 const PORT = process.env.PORT || 8080;
 const db = require("./models");
-const formatMessage = require("./utils/messages");
-const { userJoin, getCurrentUser, userLeave, getRoomUsers } = require("./utils/users");
-
 const botName = "Babble Chat";
 
-//Run when client connects 
-io.on("connection", socket => {
-  socket.on("joinRoom", ({ username, room }) => {
-
-    const user = userJoin(socket.id, username, room);
-
-    socket.join(user.room);
-
-  //Welcome current user
-  socket.emit("message", formatMessage(botName, "Welcome to Chatroom!"));
-
-  //Broadcast when a user connects
-  socket.broadcast
-  .to(user.room)
-  .emit("message", formatMessage(botName, `${user.username} has joined the chat`));
-
-  //Send users and room info
-  io.to(user.room).emit('roomUsers', {
-    room: user.room,
-    users: getRoomUsers(user.room)
-  });
-
-  });
-
-  //Listen for chatMessage
-  io.on("chatMessage", (msg) => {
-
-    const user = getCurrentUser(socket.id);
-
-    io.to(user.room).emit("message", formatMessage(user.username, msg));
-
-  });
-
-
-});
-
- //Run when client disconnects
- io.on("disconnect", () => {
-   const user = userLeave(socket.id);
-
-   if(user) {
-
-    io.to(user.room).emit("message", formatMessage(botName, `${user.username} has left the chat`));
-
-     //Send users and room info
-  io.to(user.room).emit('roomUsers', {
-    room: user.room,
-    users: getRoomUsers(user.room)
-  });
-
-   }
-});
-
-// Creating express app and configuring middleware needed for authentication
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
@@ -94,13 +31,78 @@ app.use(passport.session());
 require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
+// Creating express app and configuring middleware needed for authentication
+
+
 // Syncing our database and logging a message to the user upon success
-db.sequelize.sync().then(() => {
+db.sequelize.sync({force:false}).then(() => {
   app.listen(PORT, () => {
     console.log(
       "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
       PORT,
       PORT
     );
+  });
+});
+
+
+//socket io hooks
+io.on('connection', (socket) => {
+  var addedUser = false;
+  console.log("socket connected!")
+  // when the client emits 'new message', this listens and executes
+  socket.on('new message', (data) => {
+    // we tell the client to execute 'new message'
+    socket.broadcast.emit('new message', {
+      username: socket.username,
+      message: data
+    });
+  });
+
+  socket.on("test msg", msg => console.log(msg))
+
+  // when the client emits 'add user', this listens and executes
+  socket.on('add user', (username) => {
+    if (addedUser) return;
+
+    // we store the username in the socket session for this client
+    socket.username = username;
+    ++numUsers;
+    addedUser = true;
+    socket.emit('login', {
+      numUsers: numUsers
+    });
+    // echo globally (all clients) that a person has connected
+    socket.broadcast.emit('user joined', {
+      username: socket.username,
+      numUsers: numUsers
+    });
+  });
+
+  // when the client emits 'typing', we broadcast it to others
+  socket.on('typing', () => {
+    socket.broadcast.emit('typing', {
+      username: socket.username
+    });
+  });
+
+  // when the client emits 'stop typing', we broadcast it to others
+  socket.on('stop typing', () => {
+    socket.broadcast.emit('stop typing', {
+      username: socket.username
+    });
+  });
+
+  // when the user disconnects.. perform this
+  socket.on('disconnect', () => {
+    if (addedUser) {
+      --numUsers;
+
+      // echo globally that this client has left
+      socket.broadcast.emit('user left', {
+        username: socket.username,
+        numUsers: numUsers
+      });
+    }
   });
 });
