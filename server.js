@@ -21,7 +21,7 @@ const {
 const server = require("http").createServer(app);
 const io = require("socket.io")(server);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 7070;
 
 
 // Setting up port and requiring models for syncing
