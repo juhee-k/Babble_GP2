@@ -1,58 +1,14 @@
-
-      <main class="chat-main">
-        <div class="chat-sidebar">
-          <h3><i class="fas fa-comments"></i> Room Name:</h3>
-          <h2 id="room-name"></h2>
-          <h3><i class="fas fa-users"></i> Users</h3>
-          <ul id="users"></ul>
-        </div>
-        <div class="chat-messages"></div>
-      </main>
-      <div class="chat-form-container">
-        <form id="chat-form">
-          <input
-            id="msg"
-            type="text"
-            placeholder="Enter Message"
-            required
-            autocomplete="off"
-          />
-          <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
-        </form>
-      </div>
-    </div>
-
-
-  </body>
-</html>
-
-
-
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Chatroom</title>
         <link href="./img/favicon.png" rel="shortcut icon"/>
         <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
-        <link href="stylesheets/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
-        
+        <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/chatcopy.css" rel="stylesheet" type="text/css"/>
+        <meta content="AnimaApp.com - Design to code, Automated." name="author"/>
     </head>
-
-
     <body style="margin: 0;
-                background: rgba(255, 255, 255, 1.0);">
-                <nav class="navbar navbar-default">
-                  <div class="container-fluid">
-                    <div class="navbar-header">
-                      <a class="navbar-brand" href="/logout">
-                        Leave Room
-                      </a>
-                    </div>
-                  </div>
-                </nav>
+ background: rgba(255, 255, 255, 1.0);">
         <input id="anPageName" name="page" type="hidden" value="chatcopy"/>
         <div class="chatcopy anima-word-break ">
             <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
@@ -62,21 +18,6 @@
                 <img alt="Image/" anima-src="./img/chat-copy-line-copy@2x.png" class="linecopy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="messeges">
                     <div class="message">
-                       
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                          <h2 class="member-greeting"></h2>
-                          <!-- <ul id="message"></ul>
-                          <form action="">
-                          <input id="m" autocomplete="off"/>
-                          <button>Send</button>
-                          </form> -->
-                          
-                        </div>
-                      </div>
-                    </div>
-
                         <!-- <div class="a0744am">
                             07:44 am
                         </div>
@@ -180,14 +121,13 @@
                 </div>
                 <div class="menu">
                     <img alt="Image/" anima-src="./img/chat-copy-rectangle.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    
-                        
-                          <h2>
-                            Babble
-                        </h2>
-                        
-                        
-                    
+                    <div class="logo">
+                        <div class="rectangle6copy6">
+                        </div>
+                        <!-- <div class="l">
+                            L
+                        </div> -->
+                    </div>
                     <div class="item1">
                         <div class="rectangle6">
                         </div>
@@ -376,20 +316,87 @@
                 </div>
             </div>
         </div>
-        <!-- <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
-      integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="js/main.js"></script> -->
         <!-- Scripts -->
-
-<!-- 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.5.1/qs.min.js" integrity="sha512-B5KPuKhNIyNoR95LjIF4yHlNHK9JA2uPpSGspqxWzL+ghKk/FPtl8JFlqh+51s1d0/0DuGjfMnUURCYG8hUJ/Q==" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <script src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.5.1/qs.min.js" integrity="sha512-B5KPuKhNIyNoR95LjIF4yHlNHK9JA2uPpSGspqxWzL+ghKk/FPtl8JFlqh+51s1d0/0DuGjfMnUURCYG8hUJ/Q==" crossorigin="anonymous"></script>
         <!-- End of Scripts -->
     </body>
 </html>
