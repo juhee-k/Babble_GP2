@@ -1,0 +1,2057 @@
+.chatcopy {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 1024px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width: 100%;
+}
+.anima-full-height-a {
+  height: 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.chatcopy .rectangle2 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 1024px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .linecopy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 119px;
+  height: 42px;
+  width: 2px;
+  position: absolute;
+  margin: 0;
+  left: 696px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .linecopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 119px;
+  height: 42px;
+  width: 2px;
+  position: absolute;
+  margin: 0;
+  left: 534px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .messeges {
+  background-color: rgba(255, 255, 255, 0);
+  top: 258px;
+  height: 389px;
+  width: 942px;
+  position: absolute;
+  margin: 0;
+  left: 153px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100px;
+  width: 786px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message .a0744am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 732px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .messeges .message .rectangle5 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 100px;
+  width: 639px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message .nowifyouareinte {
+  background-color: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: auto;
+  width: 588px;
+  position: absolute;
+  margin: 0;
+  left: 92px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 22px;
+}
+.chatcopy .messeges .message .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 150px;
+  height: 56px;
+  width: 337px;
+  position: absolute;
+  margin: 0;
+  left: 605px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message2 .a0843am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .messeges .message2 .rectangle5copy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 50px;
+  width: 185px;
+  position: absolute;
+  margin: 0;
+  left: 83px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message2 .somemessagetext {
+  background-color: rgba(255, 255, 255, 0);
+  top: 16px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 105px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: right;
+  line-height: 22px;
+}
+.chatcopy .messeges .message2 .ovalcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 281px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 254px;
+  height: 56px;
+  width: 459px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message3 .a0843am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 405px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .messeges .message3 .rectangle5copy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 50px;
+  width: 317px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message3 .becomeatravelpro {
+  background-color: rgba(255, 255, 255, 0);
+  top: 15px;
+  height: auto;
+  width: 277px;
+  position: absolute;
+  margin: 0;
+  left: 92px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 22px;
+}
+.chatcopy .messeges .message3 .ovalcopy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message3copy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 332px;
+  height: 57px;
+  width: 159px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message3copy .rectangle5copy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .messeges .message3copy .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: 14px;
+  width: 42px;
+  position: absolute;
+  margin: 0;
+  left: 96px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .messeges .message3copy .ovalcopy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: 55px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .input {
+  background-color: rgba(255, 255, 255, 0);
+  top: 890px;
+  height: 63px;
+  width: 877px;
+  position: absolute;
+  margin: 0;
+  left: 218px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .input .rectangle5copy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: 54px;
+  width: 808px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .input .typesomething {
+  background-color: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 21px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(155, 154, 155, 1);
+  text-align: right;
+  line-height: 22px;
+}
+.chatcopy .input .fill1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: 19px;
+  width: 19px;
+  position: absolute;
+  margin: 0;
+  left: 765px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .input .ovalcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 6px;
+  height: 55px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 821px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .footer {
+  background-color: rgba(255, 255, 255, 0);
+  top: 994px;
+  height: 30px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .footer .rectangle8 {
+  background-color: rgba(91, 95, 117, 1);
+  top: 0px;
+  height: 30px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .footer .ourstorypartnershi {
+  background-color: rgba(255, 255, 255, 0);
+  top: 7px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 951px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .footer .oval4 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 1020px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+.chatcopy .footer .oval4copy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 1121px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+.chatcopy .footer .oval4copy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 1188px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+.chatcopy .footer .oval4copy3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 1294px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+.chatcopy .footer .lang {
+  background-color: rgba(255, 255, 255, 0);
+  top: 7px;
+  height: 16px;
+  width: 55px;
+  position: absolute;
+  margin: 0;
+  left: 161px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .footer .lang .english {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .footer .lang .triangle {
+  background-color: rgba(255, 255, 255, 0);
+  top: 5px;
+  height: 5px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 48px;
+  transform: rotate(180deg);
+  opacity: 1;
+}
+.chatcopy .header {
+  background-color: rgba(255, 255, 255, 0);
+  top: 100px;
+  height: 80px;
+  width: 1036px;
+  position: absolute;
+  margin: 0;
+  left: 100px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .header .rectangle1 {
+  background-color: rgba(255, 255, 255, 1);
+  top: 0px;
+  height: 80px;
+  width: 1036px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .header .itemcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: 56px;
+  width: 642px;
+  position: absolute;
+  margin: 0;
+  left: 52px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .header .itemcopy2 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .header .itemcopy2 .offer {
+  background-color: rgba(255, 255, 255, 0);
+  top: 4px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 566px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .header .itemcopy2 .company {
+  background-color: rgba(255, 255, 255, 0);
+  top: 4px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 404px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .header .itemcopy2 .hildahansen {
+  background-color: rgba(255, 255, 255, 0);
+  top: 10px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 25px;
+}
+.chatcopy .header .itemcopy2 .advertising {
+  background-color: rgba(255, 255, 255, 0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 565px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .header .itemcopy2 .invision {
+  background-color: rgba(255, 255, 255, 0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 403px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .header .itemcopy2 .fill1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 16px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 292px;
+  transform: rotate(0deg);
+  opacity: 0.3;
+}
+.chatcopy .header .itemcopy2 .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 16px;
+  height: 13px;
+  width: 17px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  transform: rotate(0deg);
+  opacity: 0.3;
+}
+.chatcopy .header .close {
+  background-color: rgba(255, 255, 255, 0);
+  top: 26px;
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  margin: 0;
+  left: 988px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .header .close .oval2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .header .close .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 8px;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  transform: rotate(45deg);
+  opacity: 1;
+}
+.chatcopy .tapnav {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .tapnav .rectangle3 {
+  background-color: rgba(31, 201, 115, 1);
+  top: 0px;
+  height: 100px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .tapnav .ovalcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 28px;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 898px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .tapnav .lottieoliver {
+  background-color: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 966px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 25px;
+}
+.chatcopy .tapnav .homepage {
+  background-color: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 749px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 25px;
+}
+.chatcopy .tapnav .combinedshapecopy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 44px;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  margin: 0;
+  left: 1102px;
+  transform: rotate(-45deg);
+  opacity: 1;
+}
+.chatcopy .tapnav .line {
+  background-color: rgba(255, 255, 255, 0);
+  top: 29px;
+  height: 41px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 873px;
+  transform: rotate(0deg);
+  opacity: 0.2;
+}
+.chatcopy .menu {
+  background-color: rgba(255, 255, 255, 0);
+  top: -38px;
+  height: 1074px;
+  width: 181px;
+  position: absolute;
+  margin: 0;
+  left: -40px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .rectangle1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 1074px;
+  width: 181px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .logo {
+  background-color: rgba(255, 255, 255, 0);
+  top: 57px;
+  height: 59px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .logo .rectangle6copy6 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .menu .logo .l {
+  background-color: rgba(255, 255, 255, 0);
+  top: 10px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 23px;
+  transform: rotate(0deg);
+  opacity: 0.2;
+  font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+  font-size: 30px;
+  color: rgba(76, 104, 193, 1);
+  text-align: center;
+  line-height: 41px;
+}
+.chatcopy .menu .item1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 150px;
+  height: 83px;
+  width: 101px;
+  position: absolute;
+  margin: 0;
+  left: 40px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item1 .rectangle6 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .menu .item1 .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 29px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  left: 33px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
+.chatcopy .menu .item1 .offers {
+  background-color: rgba(255, 255, 255, 0);
+  top: 68px;
+  height: auto;
+  width: 101px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .menu .item2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 256px;
+  height: 91px;
+  width: 86px;
+  position: absolute;
+  margin: 0;
+  left: 48px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .rectangle6copy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 82px;
+  width: 84px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .page1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 22px;
+  height: 29px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .page1 .fill1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 29px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .page1 .fill4 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 10px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .page1 .fill6 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 10px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .page1 .fill8 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 10px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 24px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item2 .chat {
+  background-color: rgba(255, 255, 255, 0);
+  top: 74px;
+  height: auto;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .menu .item3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 375px;
+  height: 83px;
+  width: 97px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item3 .rectangle6copy2 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .menu .item3 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 12px;
+  height: 33px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
+.chatcopy .menu .item3 .board {
+  background-color: rgba(255, 255, 255, 0);
+  top: 68px;
+  height: auto;
+  width: 95px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .menu .item3 .page1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 22px;
+  height: 16px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 40px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item3 .page1 .fill4 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 14px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item4 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 487px;
+  height: 83px;
+  width: 97px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item4 .rectangle6copy3 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .menu .item4 .fill1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 30px;
+  width: 33px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
+.chatcopy .menu .item4 .application {
+  background-color: rgba(255, 255, 255, 0);
+  top: 68px;
+  height: auto;
+  width: 95px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .menu .item5 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 600px;
+  height: 83px;
+  width: 97px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item5 .rectangle6copy4 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .menu .item5 .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 13px;
+  height: 33px;
+  width: 29px;
+  position: absolute;
+  margin: 0;
+  left: 35px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
+.chatcopy .menu .item5 .lists {
+  background-color: rgba(255, 255, 255, 0);
+  top: 68px;
+  height: auto;
+  width: 95px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .menu .item6 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 713px;
+  height: 83px;
+  width: 97px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .menu .item6 .rectangle6copy5 {
+  background-color: rgba(76, 104, 193, 1);
+  top: 0px;
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .menu .item6 .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 12px;
+  height: 32px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  left: 33px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+}
+.chatcopy .menu .item6 .faq {
+  background-color: rgba(255, 255, 255, 0);
+  top: 68px;
+  height: auto;
+  width: 95px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .listmesseges {
+  background-color: rgba(255, 255, 255, 0);
+  top: 100px;
+  height: 924px;
+  width: 307px;
+  position: absolute;
+  margin: 0;
+  left: 1136px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .background {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 924px;
+  width: 307px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .rectangle3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 923px;
+  width: 307px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.05;
+}
+.chatcopy .listmesseges .search {
+  background-color: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: 34px;
+  width: 266px;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .search .rectangle21 {
+  background-color: rgba(16, 27, 79, 1);
+  top: 0px;
+  height: 34px;
+  width: 266px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 6px;
+  transform: rotate(0deg);
+  opacity: 0.05;
+}
+.chatcopy .listmesseges .search .fill1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 13px;
+  height: 9px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 15px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .item {
+  background-color: rgba(255, 255, 255, 0);
+  top: 67px;
+  height: 89px;
+  width: 276px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .item .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: 49px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .item .adobe {
+  background-color: rgba(255, 255, 255, 0);
+  top: 32px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 61px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .item .threewaystogettr {
+  background-color: rgba(255, 255, 255, 0);
+  top: 54px;
+  height: auto;
+  width: 210px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .item .line {
+  background-color: rgba(255, 255, 255, 0);
+  top: 86px;
+  height: 2px;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .listmesseges .item .linecopy1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 2px;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .listmesseges .item .ricardolopez {
+  background-color: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .listmesseges .item .a1123am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 220px;
+  transform: rotate(0deg);
+  opacity: 0.4;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(16, 27, 79, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy {
+  background-color: rgba(255, 255, 255, 0);
+  top: 170px;
+  height: 55px;
+  width: 275px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: 49px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy .apple {
+  background-color: rgba(255, 255, 255, 0);
+  top: 16px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy .traintravelontrac {
+  background-color: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: 210px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy .frederickbyrd {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .listmesseges .itemcopy .a1011am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 219px;
+  transform: rotate(0deg);
+  opacity: 0.4;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(16, 27, 79, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 230px;
+  height: 118px;
+  width: 318px;
+  position: absolute;
+  margin: 0;
+  left: -5px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy2 .rectangle21 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: 116px;
+  width: 316px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy2 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 28px;
+  height: 49px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 18px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy2 .invision {
+  background-color: rgba(255, 255, 255, 0);
+  top: 42px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 79px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy2 .becomeatravelpro {
+  background-color: rgba(255, 255, 255, 0);
+  top: 64px;
+  height: auto;
+  width: 210px;
+  position: absolute;
+  margin: 0;
+  left: 79px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy2 .hildahansen {
+  background-color: rgba(255, 255, 255, 0);
+  top: 27px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 79px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .listmesseges .itemcopy2 .a0843am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 29px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 236px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 342px;
+  height: 73px;
+  width: 276px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy3 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 49px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy3 .avocode {
+  background-color: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy3 .howtomaintainyour {
+  background-color: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: auto;
+  width: 210px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy3 .line {
+  background-color: rgba(255, 255, 255, 0);
+  top: 70px;
+  height: 2px;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .listmesseges .itemcopy3 .ryanunderwood {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .listmesseges .itemcopy3 .a711am {
+  background-color: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 226px;
+  transform: rotate(0deg);
+  opacity: 0.4;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(16, 27, 79, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy4 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 429px;
+  height: 73px;
+  width: 276px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy4 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: 50px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy4 .audi {
+  background-color: rgba(255, 255, 255, 0);
+  top: 16px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy4 .getreadyfastforf {
+  background-color: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: 210px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy4 .line {
+  background-color: rgba(255, 255, 255, 0);
+  top: 70px;
+  height: 2px;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .listmesseges .itemcopy4 .myrtiediaz {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .listmesseges .itemcopy4 .yesterday {
+  background-color: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 216px;
+  transform: rotate(0deg);
+  opacity: 0.4;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(16, 27, 79, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy5 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 515px;
+  height: 73px;
+  width: 276px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy5 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 49px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .listmesseges .itemcopy5 .dell {
+  background-color: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy5 .threewaystogettr {
+  background-color: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: 210px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(155, 154, 155, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .itemcopy5 .line {
+  background-color: rgba(255, 255, 255, 0);
+  top: 70px;
+  height: 2px;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+.chatcopy .listmesseges .itemcopy5 .stevefowler {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(16, 27, 79, 1);
+  text-align: left;
+  line-height: 19px;
+}
+.chatcopy .listmesseges .itemcopy5 .yesterday {
+  background-color: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 216px;
+  transform: rotate(0deg);
+  opacity: 0.4;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(16, 27, 79, 1);
+  text-align: right;
+  line-height: 16px;
+}
+.chatcopy .listmesseges .searchmessages {
+  background-color: rgba(255, 255, 255, 0);
+  top: 25px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 57px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(16, 27, 79, 1);
+  text-align: center;
+  line-height: 16px;
+}
+.chatcopy .expertise {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100px;
+  width: 305px;
+  position: absolute;
+  margin: 0;
+  left: 1136px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .expertise .rectangle3copy {
+  background-color: rgba(8, 131, 69, 1);
+  top: 0px;
+  height: 100px;
+  width: 305px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .expertise .a5ofexpertise {
+  background-color: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 24px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 25px;
+}
+.chatcopy .expertise .a5ofexpertise .span1 {
+}
+.chatcopy .expertise .a5ofexpertise .span2 {
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+}
+.chatcopy .expertise .a5ofexpertise .span3 {
+  font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+}
+.chatcopy .expertise .a5ofexpertise .span4 {
+  font-family: "AvenirNext-UltraLight", Helvetica, Arial, serif;
+}
+.chatcopy .expertise .youhave {
+  background-color: rgba(255, 255, 255, 0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 24px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+  font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 16px;
+}
+.chatcopy .expertise .rectangle6 {
+  background-color: rgba(15, 75, 45, 1);
+  top: 74px;
+  height: 8px;
+  width: 260px;
+  position: absolute;
+  margin: 0;
+  left: 24px;
+  border-radius: 4px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .expertise .rectangle6copy {
+  background-color: rgba(31, 201, 115, 1);
+  top: 74px;
+  height: 8px;
+  width: 13px;
+  position: absolute;
+  margin: 0;
+  left: 24px;
+  border-radius: 4px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.chatcopy .expertise .combinedshape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 44px;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  margin: 0;
+  left: 271px;
+  transform: rotate(-45deg);
+  opacity: 1;
+}
+.chatcopy .rectangle {
+  background-color: rgba(215, 215, 215, 0.5);
+  top: 20px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  border-radius: 5px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events: none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events: auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility: hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor: pointer;
+}
+.anima-word-break {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
