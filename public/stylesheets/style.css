@@ -24,10 +24,11 @@ header {
 }
 
 #footer {
-  background-color:#EB9A0B;
-  color: white;
-  opacity: 0.5; 
-  position: relative;
+  background-color: #1da1f2;
+  color: black;
+  opacity: 1;
+  font-weight: 400;
+  /* position: bottom; */
   bottom: 0;
   width: 100%;
   height: 30px;
@@ -38,36 +39,41 @@ header {
 
 .footer {
   font-size: 12px;
-  padding-top:10px;
+  padding-top: 10px;
   justify-content: center;
-  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  bottom: 10px;
+  font-family: "Raleway", sans-serif;
 } /* using footer class, instead of ID to style typeface, etc. */
 
-
 h1 {
-  padding-top:15rem;
-  color: #EB9A0B;
+  padding-top: 15rem;
+  color: #1da1f2;
   font-size: 60px;
   font-weight: 800;
   display: inline-block;
   margin: 0 0.5rem;
   justify-content: center;
   display: flex;
-  font-family: 'Raleway', sans-serif;
-  position:relative;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  /* text-shadow: black 4px 4px; */
+  /* opacity: 1.2; */
 }
 
 h2 {
-  padding-top:15rem;
-  color: #EB9A0B;
+  padding-top: 15rem;
+  color: #1da1f2;
+  text-shadow: black 4px 4px;
+
   font-size: 30px;
   font-weight: 800;
   display: inline-block;
   margin: 0 0.5rem;
   justify-content: center;
   display: flex;
-  font-family: 'Raleway', sans-serif;
-  position:relative;
+  font-family: "Raleway", sans-serif;
+  position: relative;
 }
 
 h1 {
@@ -78,18 +84,18 @@ h1 {
 
 #babble {
   display: flex;
-  color: #EB9A0B;
+  color: #1da1f2;
   font-size: 60px;
   display: inline-block;
   margin: 0 0.5rem;
   justify-content: center;
   display: flex;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   position: relative;
   text-decoration: none;
 }
 
-#babble  {
+#babble {
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
   --animate-delay: 1s;
@@ -99,4 +105,19 @@ h1 {
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
   --animate-delay: 4s;
+}
+
+.birdlogo {
+  position: absolute;
+  bottom: 500px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.birdLogoLogin {
+  position: absolute;
+  left: -120px;
+  top: 40px;
+  max-width: 300px;
+  max-width: 300px;
 }
