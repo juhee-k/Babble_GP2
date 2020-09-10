@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
-    
-    <!-- do we need Fontawesome? do we want to use their icons? -->
-    <!-- insert Google Fonts HERE -->
-    
-    <link rel="stylesheet" href="stylesheets/chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/chat.css"/>
     <title>Babble</title>
   </head>
   <body>
     <div class="chat-container">
       <header class="chat-header">
-        <h1> Babble</h1>
+        <h1><i class="fas"></i> Babble</h1>
         <div>
           <a href="login.html" class="btn">Logout</a>
           <a href="login.html" class="btn">Preferences</a>
@@ -24,19 +25,12 @@
       <main class="chat-main">
         <div class="chat-sidebar">
           <!-- <h3><i class="fas fa-comments"></i> Room Name:</h3> -->
-          <!-- <h2 id="room-name"></h2> -->
+          <h2 id="room-name"></h2>
           <h3><i class="fas fa-users"></i> Users</h3>
-          <!-- //placeholders -->
-          <h4 id="user1">User 1</h4>
-          <h4 id="user2">User 2</h4>
-          <h4 id="user3">User 3</h4>
-          <h4 id="user4">User 4</h4>
-          <h4 id="user5">User 5</h4>
-          <h4 id="user6">User 6</h4>
-          <h3><i class="fas fa-users bottom"></i> Rooms</h3>
-          <!-- <h3><i class="fas fa-users"></i> Offers</h3> -->
-          <h3><i class="fas fa-users bottom"></i> Board</h3>
-          <h3><i class="fas fa-users bottom"></i> Application</h3>
+          <h3><i class="fas fa-users"></i> Rooms</h3>
+          <h3><i class="fas fa-users"></i> Offers</h3>
+          <h3><i class="fas fa-users"></i> Board</h3>
+          <h3><i class="fas fa-users"></i> Application</h3>
           <ul id="users"></ul>
         </div>
         <div class="chat-messages"></div>
@@ -55,9 +49,11 @@
       </div>
     </div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js" integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="http://localhost:8080/socket.io/socket.io.js"></script>
-      <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.js" integrity="sha512-53y53BQwxZvk4YGd9SkHPqI7nDwlIIFZ4D2BSJG08Co7y6O3YsWeRtO6trPtdoyqfTCTkTbCulNosIAI6E4UvQ==" crossorigin="anonymous"></script>
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/members.js"></script>
   </body>
 </html>
