@@ -15,6 +15,8 @@ socket.emit('joinRoom', { username, room });
 
 // Get room and users
 socket.on('roomUsers', ({ room, users }) => {
+  // console.log(users)
+  // console.log(username)
   outputRoomName(room);
   outputUsers(users);
 });
@@ -72,6 +74,7 @@ function outputRoomName(room) {
 
 // Add users to DOM
 function outputUsers(users) {
+  console.log(users)
   userList.innerHTML = '';
   users.forEach(user=>{
     const li = document.createElement('li');
