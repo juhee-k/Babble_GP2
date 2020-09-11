@@ -38,7 +38,7 @@
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="password-input" placeholder="Password">
           </div>
-          <div class="form-control">
+          <!-- <div class="form-control">
 						<label for="room">Room</label>
 						<select name="room" id="room">
 							<option value="JavaScript">JavaScript</option>
@@ -48,7 +48,7 @@
 							<option value="Ruby">Ruby</option>
 							<option value="Java">Java</option>
 						</select>
-					</div>
+					</div> -->
           <div style="display: none" id="alert" class="alert alert-danger" role="alert">
             <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
             <span class="sr-only">Error:</span> <span class="msg"></span>
@@ -64,9 +64,12 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/signup.js"></script>
+  
+  <!-- DEV LOG IN vvvv -->
   <script type="text/javascript">
   $("#devLogin").click(()=> $.post("/api/login", {email: "chad@chad.com", password: 1234}).then(()=> window.location.reload()))
   </script>
+
   <script>
     
     animate__fadeInLeft();
